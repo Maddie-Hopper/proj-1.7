@@ -1,0 +1,242 @@
+body {
+    background: #BDC7BC;
+   
+}
+
+.header-bg {
+
+    width: 100%;
+    height: 69px; 
+    background: #2D482A;;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+    display: flex;
+    position: absolute;
+    top: 10px; 
+    left: 20px; 
+    z-index: 2; 
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-image-container {
+    position: relative; 
+}
+
+.about-title {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 60px; 
+    font-weight: 700; 
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+}
+
+.tour-options-section {
+    padding: 50px 20px;
+    background: #BDC7BC;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+.tour-wrapper {
+    display: flex; 
+    gap: 30px; 
+}
+
+.tour-image {
+    max-width: 45%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+   
+}
+
+.tour-details {
+    flex: 1; 
+}
+
+.tour-option {
+    background-color: rgba(255, 255, 255, 0.85); 
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px; 
+   
+}
+
+.tour-option h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2D482A;
+    margin-bottom: 20px;
+}
+
+
+.book-tour .btn-apply {
+    background-color: #FFD700;
+    color: #2D482A;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.testimonials-section {
+    background: #BDC7BC;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonials-title h2 {
+    font-size: 2.5rem;
+    color: #2D482A;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.testimonials-title p {
+    font-size: 24px;
+    color: #333; 
+    margin-bottom: 40px;
+}
+
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    background: #F1F8F6; 
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #333;
+    font-style: italic;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2D482A;
+    margin-bottom: 30px;
+}
+
+.night-description {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.header-image {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover;
+    object-position: center center; 
+}
+
+.important-notes {
+    background-color: #2d482a;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.important-notes h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFD700;
+    margin-bottom: 20px;
+    background-color: #2D482A;
+}
+
+.important-notes li {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #2D482A;
+}
+
+footer {
+    padding: 30px;
+    background-color: #2D482A; 
+    color: white;
+   
+}
+
+.contact-section .contact-text {
+    margin-bottom: 20px; ;
+}
+
+.contact-text p {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-section .contact-links {
+    display: flex; ;
+    justify-content: center;
+    gap: 30px;
+    width: 100%; ;
+    margin-top: 30px; ;
+}
+
+
+.contact-section .contact-links {
+    display: flex; 
+    justify-content: center;
+    gap: 30px;
+    width: 100%; 
+    margin-top: 30px; 
+}
+
+
+
+.contact-section a {
+    text-decoration: none;
+    color: #FFD700; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-section {
+    background:  #2D482A; 
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.footer-text p {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
